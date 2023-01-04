@@ -79,17 +79,22 @@ body header .demo:hover svg path {
 }
 .herov {
   display: flex;
+  width: 100%;
+  min-width: 1170px;
+  height: 489px;
+  justify-content: space-between;
 }
 .herov .hero_image {
   width: 770px;
   height: 407px;
-  padding-top: 230px;
-  padding-left: 50px;
+  margin-left: -250px;
+  margin-top: 80px;
+  align-self: flex-end;
 }
 .herov .herov_inform {
   display: flex;
   flex-direction: column;
-  align-items: center;
+  align-self: flex-end;
 }
 .herov .herov_inform .herov_header {
   font-family: "Work Sans";
@@ -98,6 +103,7 @@ body header .demo:hover svg path {
   font-size: 80px;
   line-height: 110%;
   color: #212353;
+  max-width: 601px;
 }
 .herov .herov_paragraf {
   font-family: "Montserrat";
@@ -106,6 +112,7 @@ body header .demo:hover svg path {
   font-size: 18px;
   line-height: 160%;
   color: #4b5d68;
+  max-width: 370px;
   max-width: 370px;
 }
 .herov .herov_btn {
