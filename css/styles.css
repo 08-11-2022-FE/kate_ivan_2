@@ -1,0 +1,119 @@
+:root {
+    scroll-behavior: smooth;
+  }
+  
+  body {
+    padding-inline: 14.375%;
+    display: flex;
+    flex-direction: column;
+    gap: 100px;
+  }
+  body main {
+    display: flex;
+    flex-direction: column;
+    gap: 100px;
+  }
+  body header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100px;
+  }
+  body header .header-wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 120px;
+  }
+  body header .header-wrapper .logo {
+    cursor: pointer;
+  }
+  body header .header-wrapper nav ul {
+    display: flex;
+    gap: 40px;
+  }
+  body header .header-wrapper nav ul li a {
+    text-decoration: none;
+    color: #4B5D68;
+    font-family: "Montserrat";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 160%;
+  }
+  body header .header-wrapper nav ul li:hover a {
+    color: #8A40EE;
+  }
+  body header .demo {
+    box-sizing: border-box;
+    width: 210px;
+    height: 60px;
+    border: 1px solid #9C69E2;
+    border-radius: 50px;
+    box-shadow: 0px 5px 5px rgba(75, 93, 104, 0.1);
+    background: #FFFFFF;
+  }
+  body header .demo svg path {
+    stroke: #9C69E2;
+  }
+  body header .demo a {
+    text-decoration: none;
+    color: #212353;
+    font-family: "Montserrat";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 160%;
+    letter-spacing: 0.005em;
+    padding: 16px 23px 16px 23px;
+    display: inline-block;
+  }
+  body header .demo:hover {
+    background-color: #9C69E2;
+  }
+  body header .demo:hover a {
+    color: #FFFFFF;
+  }
+  body header .demo:hover svg path {
+    stroke: #FFFFFF;
+  }
+
+
+  .info {
+    background: #FDE8F5;
+    border-radius: 50px;
+    height: 560px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    min-width: 1170px;
+  }
+  .info .info-image {
+    background-image: url(../image/info-image.svg);
+    width: 400px;
+    height: 410px;
+  }
+  .info .info-text {
+    max-width: 500px;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+  }
+  .info .info-text h2 {
+    font-family: "Work Sans";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 130%;
+    display: flex;
+    align-items: center;
+    color: #212353;
+  }
+  .info .info-text .info-text-p p {
+    font-family: "Montserrat";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 160%;
+    color: #4B5D68;
+  }
